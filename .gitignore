@@ -1,0 +1,6 @@
+# Ham ses dosyalari public repoya GIRMEZ.
+# Meta Sound Collection / Epidemic gibi lisanslar sesi icerikte kullanmaya izin
+# verir, dosyayi yeniden dagitmaya degil. Ses videoya gomulu olarak yayinlanir;
+# mp3'un kendisinin herkese acik bir adreste durmasina gerek yok.
+ses/*
+!ses/OKU.md
