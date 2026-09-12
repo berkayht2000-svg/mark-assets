@@ -8,9 +8,13 @@ Videoya gömülecek ses buraya konur. Kurallar → `mark-ses` skill'i.
 python TECHNICAL/ses_uret.py
 ```
 
-Çıktı: `exports/ses/mark_zemin.wav` — 78 BPM, A minör, davulsuz, vinyl
-çıtırtısı ve oda tonuyla. `video_uret.py` bu dosyayı otomatik bulup videoya
-gömer. Telif tartışması yok; ses tamamen bizim.
+Çıktı: `exports/ses/mark_zemin_<video>.wav` — tempo videoya kilitli, boom
+bap davulu, odun çıtırtısı ve oda tonuyla. `video_uret.py` **o videoya ait**
+dosyayı adından bulup gömer. Telif tartışması yok; ses tamamen bizim.
+
+**Her videonun sesi ayrı dosyada.** Önceden hepsi tek `mark_zemin.wav`'a
+yazılıyordu ve her yeni video öncekinin sesini siliyordu; eski bir video
+yeniden render edilirse yanlış sesi kapıyordu.
 
 Başka bir varyasyon istersen tohumu değiştir:
 
